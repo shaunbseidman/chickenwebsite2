@@ -1,0 +1,135 @@
+body{
+  margin:0;
+  font-family: sans-serif;
+  background-color: #A48B61;
+}
+
+header{
+    border-style: solid;
+    border-width: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #8C1C23 ;
+    position: inherit;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.magnifying{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+.productmain{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+
+.price{
+  font-size: 40px;
+  font-style: italic;
+}
+
+.customerreviews{
+  height: 120px;
+  width: 100%;
+  border: 3px solid black;
+  overflow: auto;
+  padding: 5px;
+  background-color: rgb(136, 150, 106);
+}
+
+.product{
+  padding-bottom: 100px;
+  height: 350px;
+  width: 370px;
+}
+
+.button{
+  height: 3em;f
+}
+
+.reviews{
+}
+
+.all-reviews{
+  list-style: none;
+  color: inherit;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.stars1{
+  height:20px;
+  width:100px;
+}
+
+.stars5{
+  height:30px;
+  width:110px;
+}
+
+footer{
+    border-style: solid;
+    border-width: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8C1C23 ;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+.searchbar {
+    background-color: white;
+    position: absolute;
+    height: 40px;
+    border-style: solid;
+    border-width: 1px;
+    top: 100px;
+    right: 500px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    background-color: #99B4C2 ;
+    position: absolute;
+    top: 175px;
+    left: 0px;
+    height: 400px;
+    width: 200px;
+}
+
+.photoboxrow1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.photoboxrow2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+.subphoto {
+    height: 200px;
+    width: 200px;
